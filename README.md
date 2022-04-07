@@ -17,9 +17,11 @@ No seu navegador de preferência, digite a URL http://localhost:8080/secauth/.
 Crie sua conta e faça login para ter acesso a aplicação. 
 
 Conteudo da API:
-| Metodo || URL | Descrição |
-| --- | --- |
-| POST | | /cadastrarArtigo | Insere um novo artigo no banco de dados. |
-| GET | | /listarTudo | Lista todos os artigos cadastrados no banco. |
-| DELETE | | /excluir/{id} | Exclui um artigo pelo seu ID. |
-| DELETE | | /excluirTodos | Exclui todos os artigos do banco de dados. |
+
+ /cadastrarArtigo: Insere um novo artigo no banco de dados (POST). 
+ 
+ /listarTudo: Lista todos os artigos cadastrados no banco (GET).
+ 
+ /excluir/{id}: Exclui um artigo pelo seu ID (DELETE).
+ 
+ /excluirTodos: Exclui todos os artigos do banco de dados (DELETE).
